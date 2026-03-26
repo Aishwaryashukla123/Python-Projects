@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Scraper</title>
+</head>
+<body>
+
+<h2>Search Images</h2>
+
+<form
+        action="{{ url_for('index') }}" method="POST">
+    <label for="content"> keyword:</label>
+    <input type="text" name="content" id="content" placeholder="Enter keyword">
+    <button type="submit">Search</button>
+</form>
+
+</body>
+</html>
+
+
